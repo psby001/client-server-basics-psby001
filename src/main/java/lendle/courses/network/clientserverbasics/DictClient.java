@@ -31,7 +31,7 @@ public class DictClient {
         ////////////////////////////////////////////
         Writer writer = new OutputStreamWriter(out, "UTF-8");
         //hint: 輸出 DEFINE wn gold\r\n
-        writer.write("DEFINE wn network\r\n");
+        writer.write("DEFINE wn glod\r\n");
         /////////////////////////////
         writer.flush();
         //hint: 從socket 取得 InputStream
